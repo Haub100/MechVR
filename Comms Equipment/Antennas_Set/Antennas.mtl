@@ -1,0 +1,50 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 09.07.2016 23:20:20
+
+newmtl Antenna_01
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3600 0.3600 0.3600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_01_Diffuse.png
+	map_Kd D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_01_Diffuse.png
+	map_bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
+	bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
+
+newmtl Antenna_02
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1216 0.1216 0.1216
+	Kd 0.1216 0.1216 0.1216
+	Ks 0.4500 0.4500 0.4500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_02_Diffuse.png
+	map_Kd D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_02_Diffuse.png
+	map_bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
+	bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
+
+newmtl Antenna_03
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_03_Diffuse.png
+	map_Kd D:\3DProjects\Low Poly Objects\sceneassets\images\Antenna_03_Diffuse.png
+	map_bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
+	bump D:\3DProjects\Low Poly Objects\sceneassets\images\Scratches_Bumb.jpg
