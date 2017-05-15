@@ -1,9 +1,9 @@
-﻿Log file open, 05/14/17 17:29:54
+﻿Log file open, 05/15/17 03:04:26
 LogInit:Display: Running engine for game: MechDesert
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1342065535) SRandInit(1342065535).
+LogInit:Display: RandInit(-829138604) SRandInit(-829138604).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.080006
+LogStats: Stats thread started at 0.081953
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,936 +48,636 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.15-00.29.55:654][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.15-00.29.55:654][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.15-00.29.55:661][  0]LogInit: Computer: LLB16-03
-[2017.05.15-00.29.55:661][  0]LogInit: User: haub100
-[2017.05.15-00.29.55:661][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.15-00.29.55:661][  0]LogInit: High frequency timer resolution =3.328126 MHz
-[2017.05.15-00.29.55:661][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.05.15-00.29.55:661][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.15-00.29.55:661][  0]LogMemory: Process Physical Memory: 263.99 MB used, 263.99 MB peak
-[2017.05.15-00.29.55:661][  0]LogMemory: Process Virtual Memory: 262.90 MB used, 262.90 MB peak
-[2017.05.15-00.29.55:661][  0]LogMemory: Physical Memory: 4674.07 MB used,  11612.63 MB free, 16286.70 MB total
-[2017.05.15-00.29.55:661][  0]LogMemory: Virtual Memory: 632.04 MB used,  11612.63 MB free, 134217728.00 MB total
-[2017.05.15-00.29.55:725][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.05.15-00.29.56:371][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.15-00.29.56:392][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.05.15-00.29.56:392][  0]LogD3D11RHI:       8145/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.05.15-00.29.56:398][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.05.15-00.29.56:398][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.15-00.29.56:400][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.15-00.29.56:400][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.15-00.29.56:400][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.15-00.29.56:405][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.15-00.29.56:405][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.15-00.29.56:405][  0]LogWindows: EnumDisplayDevices:
-[2017.05.15-00.29.56:405][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.05.15-00.29.56:405][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.05.15-00.29.56:405][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.05.15-00.29.56:405][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.05.15-00.29.56:405][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.05.15-00.29.56:405][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.05.15-00.29.56:406][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.05.15-00.29.56:406][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.05.15-00.29.56:406][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.05.15-00.29.56:406][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
-[2017.05.15-00.29.56:406][  0]LogD3D11RHI:      Driver Date: 12-11-2016
-[2017.05.15-00.29.56:406][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.15-00.29.56:419][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.15-00.29.56:430][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.15-00.29.56:529][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Intermediate/Shaders/WorkingDirectory/13212/).
-[2017.05.15-00.29.56:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/haub100/AppData/Local/Temp/UnrealShaderWorkingDir/ECC90F68428B1D5633D6E58E5FC03A0C/'.
-[2017.05.15-00.29.56:529][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.15-00.29.57:469][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.15-00.29.57:512][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.15-00.29.57:554][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.15-00.29.57:598][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.15-00.29.57:641][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.15-00.29.57:689][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.15-00.29.57:737][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.15-00.29.57:785][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.15-00.29.57:820][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.15-00.29.57:865][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.15-00.29.57:908][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.15-00.29.57:949][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.15-00.29.57:991][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.15-00.29.58:032][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.15-00.29.58:073][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.15-00.29.58:158][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.15-00.29.58:158][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.15-00.29.58:184][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.15-00.29.58:260][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.15-00.29.58:288][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.15-00.29.58:333][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.15-00.29.58:374][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.15-00.29.58:414][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.15-00.29.58:454][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.15-00.29.58:454][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.15-00.29.58:763][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.15-00.29.58:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.15-00.29.58:832][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.15-00.29.58:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/haub100/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.15-00.29.58:852][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.15-00.29.58:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.15-00.29.58:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.15-00.29.59:131][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.15-00.29.59:133][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.15-00.29.59:296][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.15-00.29.59:330][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.15-00.29.59:371][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.15-00.29.59:371][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.15-00.29.59:371][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.15-00.29.59:855][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: mechdesert, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3213770044
-[2017.05.15-00.29.59:893][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2017.05.15-00.29.59:939][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028963 seconds
-[2017.05.15-00.29.59:944][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.05.15-00.29.59:944][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.05.15-00.29.59:944][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.15-00.29.59:988][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.15-00.30.01:320][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.15-00.30.01:355][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.15-00.30.01:708][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.15-00.30.02:011][  0]SourceControl: Info Source control is disabled
-[2017.05.15-00.30.02:051][  0]SourceControl: Info Source control is disabled
-[2017.05.15-00.30.02:093][  0]SourceControl: Info Source control is disabled
-[2017.05.15-00.30.02:133][  0]SourceControl: Info Source control is disabled
-[2017.05.15-00.30.03:119][  0]LogEngine: Initializing Engine...
-[2017.05.15-00.30.03:155][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-770F069A
-[2017.05.15-00.30.03:343][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.15-00.30.03:362][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.15-00.30.03:378][  0]LogInit: FAudioDevice initialized.
-[2017.05.15-00.30.03:407][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.15-00.30.03:412][  0]LogInit: Texture streaming: Enabled
-[2017.05.15-00.30.03:479][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.15-00.30.03:541][  0]LogInit: Transaction tracking system initialized
-[2017.05.15-00.30.03:782][  0]BlueprintLog: New page: Editor Load
-[2017.05.15-00.30.04:401][  0]LocalizationService: Info Localization service is disabled
-[2017.05.15-00.30.04:891][  0]LogConsoleResponse:Display: 
-[2017.05.15-00.30.05:002][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.15-00.30.05:002][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.15-00.30.05:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/' took 0.02s
-[2017.05.15-00.30.05:857][  0]SourceControl: Info Source control is disabled
-[2017.05.15-00.30.05:857][  0]Cmd: MAP LOAD FILE="../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.15-00.30.05:858][  0]LightingResults: New page: Lighting Build
-[2017.05.15-00.30.05:891][  0]MapCheck: New page: Map Check
-[2017.05.15-00.30.05:891][  0]LightingResults: New page: Lighting Build
-[2017.05.15-00.30.06:165][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.05.15-00.30.06:188][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.15-00.30.06:188][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.15-00.30.06:223][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.149ms to complete.
-[2017.05.15-00.30.06:223][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.366
-[2017.05.15-00.30.06:282][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.15-00.30.06:385][  0]LogCollectionManager: Loaded 0 collections in 0.001489 seconds
-[2017.05.15-00.30.06:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/Collections/' took 0.01s
-[2017.05.15-00.30.06:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Developers/haub100/Collections/' took 0.01s
-[2017.05.15-00.30.06:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Collections/' took 0.01s
-[2017.05.15-00.30.06:460][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.05.15-00.30.06:470][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2245 classes and 453 folders.
-[2017.05.15-00.30.06:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.15-00.30.06:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.15-00.30.06:524][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.05.15-00.30.06:576][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.05.15-00.30.06:607][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.05.15-00.30.06:648][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.15-00.30.06:655][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.15-00.30.06:709][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.05.15-00.30.06:709][  0]LogLoad: (Engine Initialization) Total time: 12.79 seconds
-[2017.05.15-00.30.06:709][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.05.15-00.30.06:709][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.15-00.30.06:709][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.15-00.30.06:718][  0]LogOcInput: OculusInput pre-init called
-[2017.05.15-00.30.06:718][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
-[2017.05.15-00.30.06:718][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
-[2017.05.15-00.30.06:718][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
-[2017.05.15-00.30.06:739][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.15-00.30.06:740][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.15-00.30.06:744][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.15-00.30.06:749][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.15-00.30.06:893][  0]LogRenderer: Reallocating scene render targets to support 804x540 NumSamples 1 (Frame:2).
-[2017.05.15-00.30.06:959][  1]LogAssetRegistry: Asset discovery search completed in 7.0881 seconds
-[2017.05.15-00.30.06:960][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
-[2017.05.15-00.30.06:960][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2017.05.15-00.30.07:738][ 84]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.15-00.30.09:609][304]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.15-00.30.22:843][839]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.15-00.30.22:935][839]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2017.05.15-00.30.22:935][839]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2017.05.15-00.30.23:075][839]LogClass:Warning: Enum '/Game/ExampleContent/VR_Trace_Interaction/Blueprints/Enums/EInteractionTraceTypes.EInteractionTraceTypes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2017.05.15-00.30.23:806][839]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.15-00.30.24:430][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_AbortButton_C_CHILDACTOR_21
-[2017.05.15-00.30.24:430][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveButton2_C_CHILDACTOR_79
-[2017.05.15-00.30.24:430][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveJoystick_C_CHILDACTOR_141
-[2017.05.15-00.30.24:430][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveJoystick_C_CHILDACTOR_142
-[2017.05.15-00.30.24:430][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_ScopeInteractive_C_CHILDACTOR_7
-[2017.05.15-00.30.25:132][839]LogAIModule: Creating AISystem for world DesertRallyRace
-[2017.05.15-00.30.25:174][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:175][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:176][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:177][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:177][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveButton2_C_CHILDACTOR_81
-[2017.05.15-00.30.25:177][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveJoystick_C_CHILDACTOR_145
-[2017.05.15-00.30.25:178][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_ScopeInteractive_C_CHILDACTOR_9
-[2017.05.15-00.30.25:178][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_BP_InteractiveJoystick_C_CHILDACTOR_146
-[2017.05.15-00.30.25:178][839]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: DesertRallyRace, Actor: /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DESTROYED_AbortButton_C_CHILDACTOR_23
-[2017.05.15-00.30.25:179][839]LogScript:Warning: Accessed None trying to read property Button_WeaponSwap
-	MechAnimationBP_C /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.BP_MechPawn5_2_527.MechMesh.MechAnimationBP_C_1
-	Function /Game/Assets/Mech/MechAnimationBP.MechAnimationBP_C:ExecuteUbergraph_MechAnimationBP:00DF
-[2017.05.15-00.30.25:182][839]PIE:Warning: Warning AttachTo: '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.BP_MechPawn5_2_527.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
-[2017.05.15-00.30.25:246][839]Cmd: MAP LOAD FILE="../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Maps/DesertRallyRace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.15-00.30.25:247][839]LightingResults: New page: Lighting Build
-[2017.05.15-00.30.25:248][839]LoadErrors: New page: Loading map: DesertRallyRace.umap
-[2017.05.15-00.30.25:249][839]MapCheck: New page: Map Check
-[2017.05.15-00.30.25:249][839]LightingResults: New page: Lighting Build
-[2017.05.15-00.30.25:577][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:578][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:579][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:580][839]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (AIController)
-[2017.05.15-00.30.25:584][839]LogScript:Warning: Accessed None trying to read property Button_WeaponSwap
-	MechAnimationBP_C /Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.BP_MechPawn5_2_527.MechMesh.MechAnimationBP_C_2
-	Function /Game/Assets/Mech/MechAnimationBP.MechAnimationBP_C:ExecuteUbergraph_MechAnimationBP:00DF
-[2017.05.15-00.30.25:589][839]PIE:Warning: Warning AttachTo: '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.BP_MechPawn5_2_527.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
-[2017.05.15-00.30.25:600][839]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.15-00.30.25:641][839]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.15-00.30.25:714][839]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.856ms to complete.
-[2017.05.15-00.30.25:714][839]LogFileHelpers: Loading map 'DesertRallyRace' took 0.469
-[2017.05.15-00.30.28:478][129]LogTemp: Repeting last play command: VR Preview
-[2017.05.15-00.30.28:491][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.30.28:491][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.30.28:491][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.15-00.30.28:491][129]PIE: New page: PIE session: DesertRallyRace (May 14, 2017, 10:30:28 AM)
-[2017.05.15-00.30.28:491][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DesertRallyRace
-[2017.05.15-00.30.28:639][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147116s)
-[2017.05.15-00.30.28:640][129]LogAIModule: Creating AISystem for world DesertRallyRace
-[2017.05.15-00.30.28:640][129]LogPlayLevel: PIE: World Init took: (0.001277s)
-[2017.05.15-00.30.28:640][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DesertRallyRace.DesertRallyRace to /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace (0.148819s)
-[2017.05.15-00.30.28:662][129]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.15-00.30.28:674][129]LogInit: FAudioDevice initialized.
-[2017.05.15-00.30.28:777][129]LogLoad: Game class is 'GameModeBase'
-[2017.05.15-00.30.28:813][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace up for play (max tick rate 0) at 2017.05.14-17.30.28
-[2017.05.15-00.30.28:815][129]LogWorld: Bringing up level for play took: 0.036719
-[2017.05.15-00.30.28:847][129]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.05.15-00.30.28:853][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DesertRallyRace 0.274
-[2017.05.15-00.30.28:854][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.30.28:854][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.30.28:933][130]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1590).
-[2017.05.15-00.30.36:632][805]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:643][806]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:659][807]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:668][808]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:677][809]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:688][810]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:699][811]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:711][812]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:721][813]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:732][814]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:744][815]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:755][816]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:767][817]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:780][818]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:789][819]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:800][820]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.36:811][821]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.38:263][951]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:275][952]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:288][953]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:298][954]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:308][955]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:320][956]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:331][957]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:342][958]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:353][959]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:365][960]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:376][961]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:386][962]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:398][963]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:409][964]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:420][965]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:432][966]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:442][967]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:454][968]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:466][969]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:478][970]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:492][971]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:501][972]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:511][973]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:521][974]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:532][975]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:543][976]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:554][977]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:566][978]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:577][979]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:588][980]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:599][981]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:611][982]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:621][983]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:633][984]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:644][985]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:655][986]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:666][987]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:678][988]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:689][989]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:699][990]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:711][991]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:722][992]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:733][993]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:745][994]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:755][995]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:767][996]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:778][997]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:789][998]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:800][999]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.38:812][  0]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.43:838][447]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:849][448]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:863][449]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:872][450]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:883][451]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:895][452]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:907][453]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:916][454]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.43:927][455]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:938][456]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:949][457]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:960][458]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:972][459]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:983][460]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.43:994][461]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.44:005][462]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.44:017][463]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.44:028][464]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:039][465]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:050][466]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:061][467]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:072][468]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:084][469]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:096][470]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:107][471]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_5
-[2017.05.15-00.30.44:117][472]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:129][473]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:140][474]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:150][475]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:162][476]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:173][477]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:184][478]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:196][479]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:206][480]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.44:218][481]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A2
-[2017.05.15-00.30.50:912][934]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:923][935]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:938][936]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:947][937]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:959][938]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:969][939]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:979][940]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.50:990][941]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:001][942]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:012][943]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:023][944]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:035][945]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:045][946]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:057][947]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:068][948]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:079][949]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:091][950]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:101][951]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:113][952]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:124][953]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:135][954]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:147][955]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:158][956]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:169][957]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:179][958]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:191][959]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.51:627][998]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:637][999]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:650][  0]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:661][  1]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:672][  2]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:682][  3]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:694][  4]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:705][  5]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:716][  6]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:727][  7]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.51:738][  8]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.30.52:184][ 44]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:195][ 45]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:207][ 46]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:219][ 47]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:230][ 48]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:241][ 49]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:253][ 50]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:263][ 51]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:274][ 52]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:285][ 53]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:297][ 54]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:308][ 55]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:319][ 56]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:331][ 57]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:341][ 58]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:352][ 59]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:363][ 60]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:376][ 61]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:390][ 62]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:400][ 63]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:411][ 64]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:420][ 65]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.52:454][ 66]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.57:922][551]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:934][552]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:945][553]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:957][554]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:968][555]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:979][556]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.57:989][557]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:001][558]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:012][559]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:023][560]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:034][561]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:046][562]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:057][563]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:068][564]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:079][565]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:090][566]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:101][567]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:113][568]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:124][569]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:135][570]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_7
-[2017.05.15-00.30.58:827][632]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:839][633]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:849][634]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:861][635]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:872][636]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:883][637]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:894][638]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:906][639]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:917][640]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:928][641]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:939][642]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:950][643]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:961][644]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:974][645]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:984][646]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.58:995][647]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Barrier_02A_6
-[2017.05.15-00.30.59:677][708]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:688][709]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:699][710]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:710][711]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:721][712]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:732][713]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:743][714]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:755][715]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:766][716]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:777][717]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:788][718]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:799][719]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:811][720]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:822][721]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:833][722]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:844][723]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:856][724]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:866][725]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:878][726]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:889][727]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:900][728]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:913][729]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:922][730]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:933][731]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:944][732]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:967][733]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:978][734]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.30.59:990][735]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:001][736]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:012][737]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:023][738]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:034][739]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:045][740]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:057][741]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:068][742]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:079][743]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:091][744]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:101][745]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:112][746]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:123][747]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:134][748]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:146][749]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:157][750]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:168][751]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:179][752]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:190][753]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:201][754]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:213][755]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:224][756]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:236][757]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:247][758]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:258][759]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:269][760]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:280][761]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:291][762]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:302][763]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:314][764]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:325][765]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:336][766]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:347][767]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:358][768]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:369][769]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:380][770]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:391][771]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:403][772]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:413][773]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:425][774]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:437][775]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:448][776]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:458][777]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:470][778]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:481][779]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:503][780]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:514][781]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:526][782]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:537][783]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:559][784]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:570][785]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:582][786]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:592][787]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:604][788]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:615][789]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:626][790]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:637][791]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:648][792]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:659][793]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:670][794]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:682][795]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:693][796]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:704][797]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:716][798]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:727][799]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:738][800]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:749][801]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:760][802]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:771][803]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:782][804]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:794][805]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:805][806]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:815][807]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:827][808]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:838][809]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:850][810]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:861][811]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:872][812]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:883][813]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:894][814]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:905][815]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:927][816]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:950][817]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:961][818]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:973][819]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:983][820]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.00:995][821]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:007][822]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:017][823]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:028][824]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:039][825]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:050][826]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:062][827]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:073][828]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:084][829]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:107][830]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:118][831]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:129][832]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:140][833]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:151][834]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:162][835]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:173][836]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:185][837]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:196][838]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:207][839]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:218][840]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:229][841]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:240][842]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:251][843]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:263][844]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:274][845]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:285][846]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:296][847]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:308][848]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:318][849]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:329][850]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:341][851]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:352][852]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:363][853]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:374][854]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:385][855]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:397][856]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:408][857]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:419][858]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:430][859]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:441][860]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:452][861]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:464][862]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:475][863]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:486][864]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:498][865]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:509][866]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:520][867]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:531][868]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:553][869]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:564][870]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:576][871]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:587][872]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:598][873]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:609][874]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:620][875]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:632][876]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:643][877]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:654][878]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:665][879]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:676][880]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:688][881]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:699][882]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:709][883]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:721][884]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:732][885]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:743][886]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:754][887]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:765][888]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:776][889]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:787][890]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:799][891]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:810][892]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:822][893]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:833][894]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:844][895]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:856][896]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:866][897]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:878][898]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:888][899]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:900][900]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:910][901]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:922][902]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:933][903]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:944][904]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:955][905]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:967][906]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:977][907]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:989][908]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.01:999][909]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:011][910]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:023][911]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:033][912]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:046][913]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:056][914]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:067][915]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:078][916]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:090][917]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:101][918]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:112][919]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:123][920]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:134][921]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:145][922]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:157][923]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:168][924]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:179][925]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:190][926]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:201][927]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:212][928]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:223][929]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:234][930]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:246][931]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:257][932]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:268][933]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:280][934]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:290][935]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:301][936]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:312][937]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:324][938]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:335][939]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:347][940]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:358][941]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:369][942]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:379][943]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:391][944]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:402][945]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:414][946]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:425][947]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:436][948]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:447][949]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:469][950]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:491][951]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:503][952]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:514][953]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:525][954]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:537][955]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:548][956]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:559][957]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:570][958]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:581][959]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:592][960]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:603][961]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:614][962]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:626][963]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:638][964]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:648][965]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:659][966]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:670][967]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:681][968]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:692][969]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:704][970]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:716][971]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:726][972]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:738][973]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.02:739][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.02:739][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.02:880][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.02:880][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.03:378][ 27]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
-[2017.05.15-00.31.03:378][ 27]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
-[2017.05.15-00.31.03:378][ 27]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
-[2017.05.15-00.31.07:941][557]LogTemp: Repeting last play command: VR Preview
-[2017.05.15-00.31.07:956][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.07:956][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.07:956][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.15-00.31.07:956][557]PIE: New page: PIE session: DesertRallyRace (May 14, 2017, 10:31:07 AM)
-[2017.05.15-00.31.07:956][557]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DesertRallyRace
-[2017.05.15-00.31.08:115][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158595s)
-[2017.05.15-00.31.08:115][557]LogAIModule: Creating AISystem for world DesertRallyRace
-[2017.05.15-00.31.08:115][557]LogPlayLevel: PIE: World Init took: (0.000824s)
-[2017.05.15-00.31.08:116][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DesertRallyRace.DesertRallyRace to /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace (0.159806s)
-[2017.05.15-00.31.08:141][557]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.15-00.31.08:154][557]LogInit: FAudioDevice initialized.
-[2017.05.15-00.31.08:244][557]LogLoad: Game class is 'GameModeBase'
-[2017.05.15-00.31.08:286][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace up for play (max tick rate 0) at 2017.05.14-17.31.08
-[2017.05.15-00.31.08:288][557]LogWorld: Bringing up level for play took: 0.042857
-[2017.05.15-00.31.08:296][557]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DesertRallyRace -0.284
-[2017.05.15-00.31.08:296][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.08:296][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.09:093][589]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.31.09:115][590]LogBlueprintUserMessages: [BP_MechPawn5_2_527] VG_Rock_01_15
-[2017.05.15-00.31.20:200][195]LogScript:Warning: Accessed None trying to read property CurrentInteractor
-	BP_InteractiveJoystick_C /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace:PersistentLevel.R_Joystick_GEN_VARIABLE_BP_InteractiveJoystick_C_CAT_144
-	Function /Game/ExampleContent/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveJoystick.BP_InteractiveJoystick_C:OnPickupPressed:003C
-[2017.05.15-00.31.20:200][195]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CurrentInteractor from function: 'OnPickupPressed' from node: Play Feedback on Hand in graph: OnPickupPressed in object: BP_InteractiveJoystick with description: Accessed None trying to read property CurrentInteractor
-[2017.05.15-00.31.24:780][449]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:814][450]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:825][451]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:859][452]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:870][453]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:902][454]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:914][455]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:925][456]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:936][457]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:949][458]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:961][459]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:972][460]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:983][461]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.24:993][462]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:025][463]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:037][464]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:070][465]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:082][466]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:093][467]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:104][468]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:137][469]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:149][470]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:182][471]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:194][472]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:227][473]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:239][474]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:250][475]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:283][476]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:294][477]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:328][478]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:340][479]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:373][480]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:384][481]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:416][482]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:428][483]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:462][484]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:473][485]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:518][487]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:551][488]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:563][489]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:597][490]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:609][491]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:641][492]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:653][493]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:685][494]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:697][495]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:730][496]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:741][497]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:774][498]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:786][499]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:821][500]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:832][501]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:864][502]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:877][503]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:909][504]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:920][505]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:954][506]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:965][507]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.25:998][508]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:010][509]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:042][510]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:054][511]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:088][512]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:100][513]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:132][514]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:144][515]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:176][516]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.26:190][517]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.28:343][624]LogScript:Warning: Accessed None trying to read property CurrentInteractor
-	BP_InteractiveJoystick_C /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace:PersistentLevel.L_Joystick_GEN_VARIABLE_BP_InteractiveJoystick_C_CAT_143
-	Function /Game/ExampleContent/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveJoystick.BP_InteractiveJoystick_C:OnPickupPressed:003C
-[2017.05.15-00.31.28:343][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CurrentInteractor from function: 'OnPickupPressed' from node: Play Feedback on Hand in graph: OnPickupPressed in object: BP_InteractiveJoystick with description: Accessed None trying to read property CurrentInteractor
-[2017.05.15-00.31.29:671][729]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:683][730]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:693][731]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:704][732]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:716][733]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:727][734]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:739][735]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:750][736]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:760][737]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:771][738]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:782][739]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:794][740]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:806][741]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:816][742]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:827][743]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:838][744]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:849][745]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:860][746]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:871][747]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:883][748]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:894][749]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:906][750]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:917][751]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:928][752]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:939][753]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:951][754]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:961][755]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.29:973][756]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:005][757]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:017][758]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:029][759]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:039][760]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:051][761]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:062][762]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:072][763]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:084][764]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:096][765]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:107][766]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:118][767]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:129][768]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:141][769]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:152][770]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:163][771]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:175][772]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:185][773]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:196][774]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:207][775]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:219][776]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:230][777]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:241][778]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:252][779]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:263][780]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:275][781]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:308][782]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:320][783]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:330][784]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:341][785]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:353][786]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:364][787]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:375][788]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:386][789]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:397][790]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:409][791]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:420][792]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:432][793]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:442][794]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:453][795]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:465][796]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:476][797]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:488][798]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:499][799]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:510][800]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:521][801]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:533][802]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:544][803]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:555][804]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:566][805]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:577][806]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:590][807]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:600][808]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:611][809]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:621][810]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:633][811]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:644][812]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:655][813]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:667][814]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:678][815]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:689][816]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:700][817]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:711][818]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:744][819]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:757][820]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:767][821]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:778][822]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:790][823]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:822][824]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:834][825]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:871][826]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:890][827]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:902][828]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:913][829]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:946][830]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:959][831]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.30:990][832]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:003][833]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:035][834]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:047][835]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:080][836]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:092][837]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:124][838]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:136][839]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:170][840]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:181][841]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:214][842]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:226][843]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:259][844]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:270][845]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:304][846]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:315][847]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:349][848]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:360][849]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:393][850]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:404][851]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:437][852]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:449][853]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:482][854]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:494][855]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:528][856]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:539][857]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.31:572][858]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:007][879]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:041][880]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:053][881]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:085][882]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:097][883]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:130][884]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:142][885]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:175][886]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:186][887]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.32:219][888]LogBlueprintUserMessages: [BP_MechPawn5_2_527] None
-[2017.05.15-00.31.41:280][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.41:280][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.41:411][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace' with GeneratedClass '/Game/Maps/DesertRallyRace.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace.DesertRallyRace:PersistentLevel.DesertRallyRace'
-[2017.05.15-00.31.41:411][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision' with GeneratedClass '/Game/Maps/DesertRallyRace_Collision.Untitled_C' with ClassGeneratedBy '/Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision:PersistentLevel.DesertRallyRace_Collision'
-[2017.05.15-00.31.46:627][526]LogSavePackage: Save=3643.84ms
-[2017.05.15-00.31.46:628][526]LogSavePackage: Moving '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/DesertRallyRaceCBD674DA4B7C75918FE3B6881BF519B0.tmp' to '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Maps/DesertRallyRace.umap'
-[2017.05.15-00.31.46:632][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Maps/DesertRallyRace.umap
-[2017.05.15-00.31.46:660][526]LogFileHelpers: Saving map 'DesertRallyRace' took 3.773
+[2017.05.15-10.04.27:126][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-10.04.27:126][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.15-10.04.27:133][  0]LogInit: Computer: LLB16-03
+[2017.05.15-10.04.27:133][  0]LogInit: User: haub100
+[2017.05.15-10.04.27:133][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.15-10.04.27:133][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2017.05.15-10.04.27:133][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.15-10.04.27:133][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-10.04.27:133][  0]LogMemory: Process Physical Memory: 265.04 MB used, 265.04 MB peak
+[2017.05.15-10.04.27:133][  0]LogMemory: Process Virtual Memory: 262.85 MB used, 262.85 MB peak
+[2017.05.15-10.04.27:133][  0]LogMemory: Physical Memory: 4245.73 MB used,  12040.96 MB free, 16286.70 MB total
+[2017.05.15-10.04.27:133][  0]LogMemory: Virtual Memory: 632.04 MB used,  12040.96 MB free, 134217728.00 MB total
+[2017.05.15-10.04.27:197][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.15-10.04.27:826][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.15-10.04.27:850][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.05.15-10.04.27:850][  0]LogD3D11RHI:       8145/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.15-10.04.27:858][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.05.15-10.04.27:858][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.15-10.04.27:860][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.15-10.04.27:860][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.15-10.04.27:860][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.15-10.04.27:864][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.15-10.04.27:864][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.15-10.04.27:864][  0]LogWindows: EnumDisplayDevices:
+[2017.05.15-10.04.27:864][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.05.15-10.04.27:864][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.05.15-10.04.27:864][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.15-10.04.27:865][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.15-10.04.27:865][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.15-10.04.27:865][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.15-10.04.27:866][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.15-10.04.27:866][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.15-10.04.27:866][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.05.15-10.04.27:866][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.05.15-10.04.27:866][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.05.15-10.04.27:866][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.15-10.04.27:881][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.15-10.04.27:897][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.15-10.04.27:997][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Intermediate/Shaders/WorkingDirectory/8360/).
+[2017.05.15-10.04.27:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/haub100/AppData/Local/Temp/UnrealShaderWorkingDir/23ED868D4E7F3DE26F82E7AAA2F6FA93/'.
+[2017.05.15-10.04.27:997][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.15-10.04.28:906][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.15-10.04.28:948][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.15-10.04.28:989][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.15-10.04.29:029][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.15-10.04.29:070][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.15-10.04.29:110][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.15-10.04.29:150][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.15-10.04.29:192][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.15-10.04.29:224][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.15-10.04.29:264][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.15-10.04.29:306][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.15-10.04.29:370][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.15-10.04.29:428][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.15-10.04.29:484][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.15-10.04.29:538][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.15-10.04.29:646][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.15-10.04.29:646][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.15-10.04.29:671][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.15-10.04.29:745][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.15-10.04.29:772][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.15-10.04.29:810][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.15-10.04.29:848][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.15-10.04.29:887][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.15-10.04.29:926][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.15-10.04.29:926][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.15-10.04.30:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.15-10.04.30:272][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-10.04.30:273][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.15-10.04.30:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.15-10.04.30:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.15-10.04.30:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.15-10.04.30:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.15-10.04.30:290][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.15-10.04.30:302][  0]LogDerivedDataCache: Using Local data cache path C:/Users/haub100/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.15-10.04.30:310][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.15-10.04.30:311][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-10.04.30:311][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-10.04.30:579][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-10.04.30:582][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.15-10.04.30:747][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.15-10.04.30:777][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.15-10.04.30:813][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.15-10.04.30:813][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.15-10.04.30:813][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.15-10.04.31:267][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: mechdesert, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3213770044
+[2017.05.15-10.04.31:305][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.05.15-10.04.31:352][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029939 seconds
+[2017.05.15-10.04.31:357][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.15-10.04.31:357][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.15-10.04.31:357][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.15-10.04.31:398][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.15-10.04.32:680][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.15-10.04.32:714][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.15-10.04.33:061][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.15-10.04.33:339][  0]SourceControl: Info Source control is disabled
+[2017.05.15-10.04.33:379][  0]SourceControl: Info Source control is disabled
+[2017.05.15-10.04.33:414][  0]SourceControl: Info Source control is disabled
+[2017.05.15-10.04.33:449][  0]SourceControl: Info Source control is disabled
+[2017.05.15-10.04.34:386][  0]LogEngine: Initializing Engine...
+[2017.05.15-10.04.34:414][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-770F069A
+[2017.05.15-10.04.34:594][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.15-10.04.34:613][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.15-10.04.34:620][  0]LogInit: FAudioDevice initialized.
+[2017.05.15-10.04.34:649][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/haub100/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-10.04.34:653][  0]LogInit: Texture streaming: Enabled
+[2017.05.15-10.04.34:716][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.15-10.04.34:779][  0]LogInit: Transaction tracking system initialized
+[2017.05.15-10.04.35:012][  0]BlueprintLog: New page: Editor Load
+[2017.05.15-10.04.35:615][  0]LocalizationService: Info Localization service is disabled
+[2017.05.15-10.04.36:074][  0]LogConsoleResponse:Display: 
+[2017.05.15-10.04.36:195][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.15-10.04.36:195][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.15-10.04.36:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/' took 0.02s
+[2017.05.15-10.04.36:961][  0]SourceControl: Info Source control is disabled
+[2017.05.15-10.04.36:961][  0]Cmd: MAP LOAD FILE="../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.15-10.04.36:961][  0]LightingResults: New page: Lighting Build
+[2017.05.15-10.04.36:988][  0]MapCheck: New page: Map Check
+[2017.05.15-10.04.36:988][  0]LightingResults: New page: Lighting Build
+[2017.05.15-10.04.37:258][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.15-10.04.37:280][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.15-10.04.37:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.15-10.04.37:320][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.474ms to complete.
+[2017.05.15-10.04.37:320][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.360
+[2017.05.15-10.04.37:392][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.15-10.04.37:494][  0]LogCollectionManager: Loaded 0 collections in 0.001372 seconds
+[2017.05.15-10.04.37:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/Collections/' took 0.01s
+[2017.05.15-10.04.37:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Developers/haub100/Collections/' took 0.01s
+[2017.05.15-10.04.37:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Collections/' took 0.01s
+[2017.05.15-10.04.37:564][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.15-10.04.37:573][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2245 classes and 453 folders.
+[2017.05.15-10.04.37:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.15-10.04.37:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.15-10.04.37:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.15-10.04.37:665][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.15-10.04.37:698][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.15-10.04.37:738][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.15-10.04.37:745][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.15-10.04.37:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.05.15-10.04.37:802][  0]LogLoad: (Engine Initialization) Total time: 12.38 seconds
+[2017.05.15-10.04.37:802][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.05.15-10.04.37:802][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.15-10.04.37:802][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.15-10.04.37:811][  0]LogOcInput: OculusInput pre-init called
+[2017.05.15-10.04.37:811][  0]LogSteamVRController: Controller role for device 2 is 2 (invalid=0, left=1, right=2).
+[2017.05.15-10.04.37:811][  0]LogSteamVRController:Warning: Controller device 2 is being assigned to its prefered role 'right'.
+[2017.05.15-10.04.37:811][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 1 (left=0, right=1).
+[2017.05.15-10.04.37:811][  0]LogSteamVRController: Controller role for device 3 is 1 (invalid=0, left=1, right=2).
+[2017.05.15-10.04.37:811][  0]LogSteamVRController: Putting controller 3 on the left hand because there is already a controller for the right.
+[2017.05.15-10.04.37:811][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 0 (left=0, right=1).
+[2017.05.15-10.04.37:831][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.15-10.04.37:832][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.15-10.04.37:835][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.15-10.04.37:840][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.15-10.04.37:951][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-10.04.37:991][  0]LogRenderer: Reallocating scene render targets to support 620x540 NumSamples 1 (Frame:2).
+[2017.05.15-10.04.38:058][  1]LogAssetRegistry: Asset discovery search completed in 6.7747 seconds
+[2017.05.15-10.04.38:058][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.05.15-10.04.38:059][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.05.15-10.04.38:831][ 81]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-10.05.00:216][629]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-10.05.00:297][629]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.15-10.05.00:298][629]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget_C' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget_C:Image_957' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget:GetBrush_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.ScopeTarget:GetBrush_0.K2Node_FunctionResult_0' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.SKEL_ScopeTarget_C:Image_957' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:467][629]LogMetaData: Removing '/Game/Assets/Mech/OldMech/ScopeTarget.SKEL_ScopeTarget_C' ref from Metadata '/Game/Assets/Mech/ScopeTarget.PackageMetaData'
+[2017.05.15-10.05.00:488][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Mech/OldMech/ScopeTarget" FILE="../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Assets/Mech/OldMech/ScopeTarget.uasset" SILENT=true
+[2017.05.15-10.05.00:498][629]LogSavePackage: Save=8.07ms
+[2017.05.15-10.05.00:498][629]LogSavePackage: Moving '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/ScopeTarget4BD223584A1412C694F5478D5253A066.tmp' to '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Assets/Mech/OldMech/ScopeTarget.uasset'
+[2017.05.15-10.05.00:501][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Assets/Mech/OldMech/ScopeTarget.uasset
+[2017.05.15-10.05.00:728][629]LogSavePackage: Save=90.86ms
+[2017.05.15-10.05.00:728][629]LogSavePackage: Moving '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/ScopeInteractive7510321E470719C96FC29098361A1D96.tmp' to '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Assets/Mech/OldMech/ScopeInteractive.uasset'
+[2017.05.15-10.05.00:731][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Assets/Mech/OldMech/ScopeInteractive.uasset
+[2017.05.15-10.05.08:167][506]LogClass:Warning: Enum '/Game/ExampleContent/VR_Trace_Interaction/Blueprints/Enums/EInteractionTraceTypes.EInteractionTraceTypes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST'
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:416][506]LoadErrors:Error: Error /Game/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash : Can't find file for asset. /Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST'
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:416][506]LoadErrors:Error: Error /Game/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash : Can't find file for asset. /Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST'
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:416][506]LoadErrors:Error: Error /Game/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash : Can't find file for asset. /Game/Blueprints/Weapons/Materials/M_Flare_04_INST
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST'
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:416][506]LoadErrors:Error: Error /Game/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash : Can't find file for asset. /Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST
+[2017.05.15-10.05.08:416][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:417][506]LoadErrors:Error: Error /Game/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash : Can't find file for asset. /Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST'
+[2017.05.15-10.05.08:417][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST' while loading ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Blueprints/Weapons/Minigun/Effects/P_BackPack_MuzzleFlash.uasset.
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST'
+[2017.05.15-10.05.08:648][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST.M_Fire_01_Add_6X6_INST Referenced by ParticleModuleRequired_1
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST' while loading NULL.
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST'
+[2017.05.15-10.05.08:648][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST.M_Fire_01_Add_6X6_INST Referenced by ParticleModuleRequired_10
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fire_01_Add_6X6_INST' while loading NULL.
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST'
+[2017.05.15-10.05.08:648][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST.M_Spark_04_SubUV_1_4_INST Referenced by ParticleModuleRequired_14
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Spark_04_SubUV_1_4_INST' while loading NULL.
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST'
+[2017.05.15-10.05.08:648][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST.M_Smoke_01_8X8_INST Referenced by ParticleModuleRequired_3
+[2017.05.15-10.05.08:648][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Smoke_01_8X8_INST' while loading NULL.
+[2017.05.15-10.05.08:649][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST'
+[2017.05.15-10.05.08:649][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Flare_04_INST.M_Flare_04_INST Referenced by ParticleModuleRequired_5
+[2017.05.15-10.05.08:649][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Flare_04_INST' while loading NULL.
+[2017.05.15-10.05.08:649][506]LogLinker:Warning: Can't find file '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST'
+[2017.05.15-10.05.08:649][506]LoadErrors: Info Failed to load /Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST.M_Fireball_03_4_4_INST Referenced by ParticleModuleRequired_7
+[2017.05.15-10.05.08:649][506]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Weapons/Materials/M_Fireball_03_4_4_INST' while loading NULL.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_MechPawn5_2_2017_C_0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AbortBtn_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GunSFX_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_WeaponSwap_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'L_Joystick_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'R_Joystick_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BP_TraceInteractor_L_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BP_TraceInteractor_R_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BPC_WorldInteractor_L_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BPC_WorldInteractor_R_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FuckingChild_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MotionController_L_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MotionController_R_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PointLight_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:912][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CameraRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MechAnimationBP_C_2' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SphereMissileSpawn_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'L_Hand_Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'R_Hand_Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EjectText_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetInteraction_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MechAnimationBP_C_3' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/Assets/Mech/MechAnimationBP'.
+[2017.05.15-10.05.35:913][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_MechAnimationBP_AnimGraphNode_ModifyBone_7182F4E34DC506E8A8686CA029FC9985' or package '/Game/Assets/Mech/MechAnimationBP'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_MechPawn5_2_2017_C_1' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MechGunRotator' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AimingPoint' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AimingMinigun' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_ComponentToLocalSpace_B6C5CC6349E4ACB37B5BBCA13DDBADC3' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_LocalToComponentSpace_4B2481B74F93393A6EC783B9748852F7' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_UseCachedPose_DF308A0B461CB0883DF378BC8CB9583C' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SaveCachedPose_A9A70EB94C4AC424305F6DA14788EA24' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_2537D4E049BE817445C880BFECB69562' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_B9ECA7434E0F1E2FDBBEF089E2F3A556' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_ModifyBone_7182F4E34DC506E8A8686CA029FC9985' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_6D3836794BCA19D15B12A9AFA7FF7156' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MechAnimationBP' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsBP_Mech_Pawn_5_2_2017' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsBP_Mech_Pawn_5_2_20172' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_MechAnimationBP_AnimGraphNode_ModifyBone_7182F4E34DC506E8A8686CA029FC9985' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MechAnimationBP_C_3' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASHCLASS_BP_MechPawn5_2_93' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_1' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MiniGunActive' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ImpactPoint' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:919][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MissileAmmo' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HUD' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ObjectsToTarget' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HomingTarget' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'isFiring' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FireCount' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UsingMotionControllers?' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GunOffset' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BaseTurnRate' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Look_LR' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Dist' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'R_Hand_Sphere' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'L_Hand_Sphere' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BP_TraceInteractor_L' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BPC_WorldInteractor_L' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BPC_WorldInteractor_R' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BP_TraceInteractor_R' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CameraRoot' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MotionController_R' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MotionController_L' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetInteraction' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GunSFX' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SphereMissileSpawn' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_WeaponSwap' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'R_Joystick' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'L_Joystick' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AbortBtn' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EjectText' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PointLight' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FuckingChild' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsBP_Mech_Pawn_5_2_20172' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsBP_Mech_Pawn_5_2_2017' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MechAnimationBP_C_2' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:920][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_MechPawn5_2_2017_C_95' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Fire_K2Node_InputActionEvent_6' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Fire_K2Node_InputActionEvent_7' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Right_Trigger_K2Node_InputKeyEvent_6' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Right_Trigger_K2Node_InputKeyEvent_7' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Trigger_K2Node_InputKeyEvent_8' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Trigger_K2Node_InputKeyEvent_9' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Thumbstick_K2Node_InputKeyEvent_10' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Thumbstick_K2Node_InputKeyEvent_11' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupRight_K2Node_InputActionEvent_8' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupRight_K2Node_InputActionEvent_9' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupLeft_K2Node_InputActionEvent_10' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupLeft_K2Node_InputActionEvent_11' or package '/Game/Assets/Mech/BP_MechPawn5_2_2017'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_MechPawn5_2_2017_C_94' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_BP_MechPawn5_2_2017' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Fire_K2Node_InputActionEvent_6' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Fire_K2Node_InputActionEvent_7' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Right_Trigger_K2Node_InputKeyEvent_6' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Right_Trigger_K2Node_InputKeyEvent_7' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Trigger_K2Node_InputKeyEvent_8' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Trigger_K2Node_InputKeyEvent_9' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Thumbstick_K2Node_InputKeyEvent_10' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_MotionController_Left_Thumbstick_K2Node_InputKeyEvent_11' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupRight_K2Node_InputActionEvent_8' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupRight_K2Node_InputActionEvent_9' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupLeft_K2Node_InputActionEvent_10' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_PickupLeft_K2Node_InputActionEvent_11' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpinDown' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpinUp' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MiniGunFire' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MissileFire' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:921][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TankGunFire' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:922][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:922][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:922][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputActionDelegateBinding_1' or package '/Engine/Transient'.
+[2017.05.15-10.05.35:922][506]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputKeyDelegateBinding_1' or package '/Engine/Transient'.
+[2017.05.15-10.05.50:334][125]LogClass:Warning: Enum '/Game/Blueprints/Enum/EHeadsetEnum.EHeadsetEnum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.15-10.05.50:406][125]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.05.15-10.05.50:954][125]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.15-10.05.51:025][125]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.15-10.05.51:145][126]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.15-10.06.13:037][234]LogSavePackage: Save=28.18ms
+[2017.05.15-10.06.13:037][234]LogSavePackage: Moving '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/MinigunProjectile1A9D6F114CD58A60AF90B39132552E2D.tmp' to '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Weapons/Minigun/Blueprints/MinigunProjectile.uasset'
+[2017.05.15-10.06.13:041][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Weapons/Minigun/Blueprints/MinigunProjectile.uasset
+[2017.05.15-10.06.16:134][552]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.15-10.06.16:302][553]Cmd: QUIT_EDITOR
+[2017.05.15-10.06.16:349][553]LogExit: Preparing to exit.
+[2017.05.15-10.06.16:859][553]LogDirectoryWatcher: A directory notification for 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/' was aborted.
+[2017.05.15-10.06.16:889][553]LogExit: Editor shut down
+[2017.05.15-10.06.16:889][553]LogExit: Transaction tracking system shut down
+[2017.05.15-10.06.16:990][553]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.15-10.06.16:990][553]LogExit: Object subsystem successfully closed.
+[2017.05.15-10.06.17:010][553]LogD3D11RHI: Shutdown
+[2017.05.15-10.06.17:010][553]LogD3D11RHI: CleanupD3DDevice
+[2017.05.15-10.06.17:089][553]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.15-10.06.17:095][553]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.15-10.06.17:095][553]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.15-10.06.17:096][553]LogDirectoryWatcher: A directory notification for 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Collections/' was aborted.
+[2017.05.15-10.06.17:096][553]LogDirectoryWatcher: A directory notification for 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/Developers/haub100/Collections/' was aborted.
+[2017.05.15-10.06.17:096][553]LogDirectoryWatcher: A directory notification for 'C:/Users/haub100/Desktop/MechVR/MechDesertUpdated/Saved/Collections/' was aborted.
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.15-10.06.17:096][553]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.15-10.06.17:097][553]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.15-10.06.17:907][553]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.15-10.06.17:960][553]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.15-10.06.17:961][553]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.15-10.06.17:967][553]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.15-10.06.17:976][553]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.15-10.06.17:977][553]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.15-10.06.17:977][553]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.15-10.06.17:977][553]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.15-10.06.17:977][553]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.15-10.06.17:978][553]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.15-10.06.17:978][553]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.15-10.06.17:978][553]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.15-10.06.17:978][553]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.15-10.06.18:078][553]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.15-10.06.18:178][553]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.15-10.06.18:179][553]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.15-10.06.18:180][553]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.15-10.06.18:305][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.15-10.06.18:305][553]LogDirectoryWatcher: A directory notification for '../../../../../../Users/haub100/Desktop/MechVR/MechDesertUpdated/Content/' was aborted.
+[2017.05.15-10.06.18:305][553]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.15-10.06.18:305][553]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.15-10.06.18:306][553]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.15-10.06.18:386][553]LogDerivedDataCache: Shutdown
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.15-10.06.18:386][553]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.15-10.06.18:387][553]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.15-10.06.18:387][553]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.15-10.06.18:387][553]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.15-10.06.18:387][553]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE28BBF80-47D5-DA69-3BCC-EF8E00698719%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=276167ff4e31b8a06c32e18dce20070b%7C%7C1615ca4b-0a4f-4ead-9413-5e7bc71d5110&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.15-10.06.18:394][553]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.15-10.06.18:396][553]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.15-10.06.18:396][553]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.15-10.06.18:396][553]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.15-10.06.18:396][553]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.15-10.06.18:396][553]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.15-10.06.18:397][553]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.15-10.06.18:400][553]LogExit: Exiting.
+[2017.05.15-10.06.18:401][553]Log file closed, 05/15/17 03:06:18
